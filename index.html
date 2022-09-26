@@ -10,13 +10,16 @@
 <body>
     <div class="main">
         <div class="input">
-            <input id="inputs" type="text" placeholder="search your city name">
+            <img id="weather-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+
+            <input id="inputs" type="text" placeholder="Write your city name">
         </div>
         <div class="details">
-            <p>City Name</p>
-            <p>26.C</p>
+            <h3 id="city">Rajshahi</h3>
+            <p ><span id="celsius">26</span>&deg;C</p>
+            <p id="condition">Clear</p>
         </div>
-        <button id="button">search</button>
+        <button id="button" onclick="weather()">search</button>
     </div>
 <script src="script.js"></script>
 </body>

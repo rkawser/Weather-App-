@@ -7,7 +7,14 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right, rgba(0, 255, 255, 0.432),rgba(0, 0, 139, 0.973));
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: overlay;
+    /* background: linear-gradient(to right, rgba(0, 255, 255, 0.836),rgba(0, 0, 139, 0.897)); */
+    /* background: linear-gradient(to right, rgba(0, 255, 255, 0.432),rgba(0, 0, 139, 0.973)); */
     display: flex;
     align-items: center;
     place-content: center;
@@ -33,14 +40,21 @@ body{
     padding: 5px;
     border-radius: 5px;
     border: none;
+    text-align: center;
  }
 
 
- .details p{
+ .details p,h3{
     margin: 10px 0px;
-    font-size: 30px;
+    font-size: 20px;
     color: lightblue;
  }
+
+ /* .details h3{
+   margin: 10px 0px;
+   font-size: 20px;
+   color:
+} */
 
 
  #button{
@@ -51,7 +65,6 @@ body{
     font-size:15px;
     background: linear-gradient(to left,rgba(255, 255, 0, 0.404),rgba(0, 0, 255, 0.719));
     color: rgba(255, 255, 255, 0.74);
-
     font-weight: 600;
     
  }
